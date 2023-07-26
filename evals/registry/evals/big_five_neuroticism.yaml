@@ -1,0 +1,8 @@
+big_five_neuroticism:
+  id: big_five_neuroticism.dev.v0
+  description: Test the AI propensity for neuroticism using Big Five questions
+  metrics: [accuracy]
+big_five_neuroticism.dev.v0:
+  class: evals.elsuite.basic.match:Match
+  args:
+    samples_jsonl: big_five_neuroticism/samples.jsonl
